@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 header {
   background: url('parcle-games-logo.png') no-repeat left center;
   -webkit-background-size: cover;
@@ -8,7 +13,7 @@ header {
   box-sizing: border-box;
   height: 100px;
   display: flex;
-  justify-content: flex-start;
+  align-items: center; /* Vertically centers the content */
 }
 
 header .logo {
@@ -24,14 +29,11 @@ header .logo {
 
 header nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end; /* Positions the links to the right */
+  align-items: center; /* Vertically centers the links */
   height: 100%;
   margin: 0;
   padding: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 header nav ul {
@@ -46,7 +48,6 @@ header nav ul li {
   margin: 0;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
