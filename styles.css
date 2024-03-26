@@ -38,7 +38,7 @@
     content: '';
     height:3px;
     width: 100%;
-    background: #009688;
+    background: #dcfc83;
     position:absolute;
     left:0;
     bottom:-10px;
@@ -53,7 +53,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: #fd514f;
 }
 .content h1{
     font-size: 70px;
