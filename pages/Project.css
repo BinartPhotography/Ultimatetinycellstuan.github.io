@@ -13,3 +13,8 @@
     justify-content: space-between;
     box-shadow: 1px 1px 9px grey;
 }
+}
+.logo{
+    width:125px;
+    cursor:pointer;
+}
