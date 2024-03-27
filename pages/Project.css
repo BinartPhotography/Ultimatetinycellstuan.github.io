@@ -12,10 +12,10 @@
     background-position: center;
 }
 .navbar{
-    background:#fff;
+    background:#9cfd17;
     width:100%;
     margin:auto;
-    padding: 15px 2;
+    padding: 30px 0;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +40,7 @@
     content: '';
     height:3px;
     width: 100%;
-    background: #dcfc83;
+    background: #fbef33;
     position:absolute;
     left:0;
     bottom:-10px;
