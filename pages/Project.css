@@ -3,6 +3,14 @@
     padding:0;
     font-family: sans-serif;
 }
+.banner{
+    width:100%;
+    height:100vh;
+    background-image::linear-
+        gradient(rgba(0,0,0,0.75)),rgba(0,0,0,0.75),url(FP_games.png);
+    background-size: cover;
+    background-position: center;
+}
 .navbar{
     background:#fff;
     width:100%;
@@ -13,8 +21,31 @@
     justify-content: space-between;
     box-shadow: 1px 1px 9px grey;
 }
-}
 .logo{
     width:125px;
     cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ui li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ui li::after{
+    content: '';
+    height:3px;
+    width: 100%;
+    background: #dcfc83;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+}
+.navbar ui li:hover::after{
+    width: 100%;
+    
 }
