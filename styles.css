@@ -12,13 +12,14 @@
     background-position: center;
 }
 .navbar{
-    background:#fa9f30;
+    background:#fff;
     width:100%;
     margin:auto;
     padding: 15px 5;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 1px 1px 9px grey;
 }
 .logo{
     width:125px;
