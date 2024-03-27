@@ -1,4 +1,5 @@
-document.getElementById('home-link').addEventListener('click', function(event) {
-  event.preventDefault();
-  window.location.href = 'index.html';
+const returnToHomeBtn = document.getElementById("returnToHome");
+
+returnToHomeBtn.addEventListener("click", function () {
+  window.location.href = "../index.html";
 });
