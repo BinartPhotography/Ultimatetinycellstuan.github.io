@@ -7,7 +7,7 @@
     width:100%;
     height:100vh;
     background-image::linear-
-        gradient(rgba(0,0,0,0.75)),rgba(0,0,0,0.75),url('FP_games.png');
+        gradient(rgba(0,0,0,0.75)),rgba(0,0,0,0.75),url('https://github.com/Ultimatetinycellstuan/Ultimatetinycellstuan.github.io/raw/main/FP_games.png');
     background-size: cover;
     background-position: center;
 }
